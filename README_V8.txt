@@ -1,0 +1,1 @@
+V8 prioritizes locally captured website screenshots; falls back to WordPress mshots, then Thum.io, then a local named graphic. Actual screenshots are not included because outbound internet access from the build container is blocked. Run capture_screenshots.py from an internet-connected computer to create them, then redeploy. This is NOT a 64 screenshot completed package.

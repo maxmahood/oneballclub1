@@ -1,0 +1,1 @@
+V7 uses 64 original, generated venue-name fallback graphics (not photographs) and remote WordPress mShots previews of official venue websites when available. No third-party website screenshots are bundled. See README.md.

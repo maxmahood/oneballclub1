@@ -1,0 +1,10 @@
+ONE BALL CLUB FIX V2
+
+IMPORTANT: Upload the folder containing index.html to your EXISTING Netlify site.
+
+1. Extract ZIP.
+2. Netlify > oneballclub site > Deploys > Drag and drop the extracted one_ball_club_verified_fix_v2 folder.
+3. Wait for Published.
+4. Visit https://oneballclub.netlify.app/?v=2 and hard refresh.
+5. Look at the bottom-right: OBC FIX V2 · 06 NOV. If absent, the old version is still live.
+6. Check that cards display.

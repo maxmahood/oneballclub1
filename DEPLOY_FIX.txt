@@ -1,0 +1,11 @@
+FIX FOR MISSING LISTINGS
+
+The live site reported: Cannot read properties of undefined (reading 0), inside Array.map. This is consistent with an older build indexing a missing category photo array while rendering listings. This package uses safe listing artwork instead of that unsafe photo lookup.
+
+1. Extract this ZIP.
+2. In Netlify, open your One Ball Club site > Deploys.
+3. Upload the extracted one_ball_club_fixed_listings folder (not the ZIP contents nested in another folder) using Netlify Drop or the deploy upload area.
+4. After the deployment finishes, open https://oneballclub.netlify.app/ and hard refresh Ctrl+Shift+R.
+5. Confirm cards appear and Console has no red errors.
+
+Note: server-wide analytics requires separate Supabase setup.
